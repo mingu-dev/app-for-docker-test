@@ -17,4 +17,4 @@ CMD [ "node", "server.js" ]
 
 # docker build -t mingukangkor/nodejs-app ./
 
-# docker run -d -p 5000:8080 -v /usr/src/app/node_modules -v ${pwd}:/usr/src/app docker.io/mingukangkor/nodejs-app
+# docker run -d -p 5000:8080 -v /usr/src/app/node_modules -v $(pwd):/usr/src/app docker.io/mingukangkor/nodejs-app
